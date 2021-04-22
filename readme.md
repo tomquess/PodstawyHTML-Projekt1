@@ -1,1 +1,1 @@
-Projekt prostej strony na zaliczenie z ząjęć 1.
+Projekt prostej strony na zaliczenie z zajęć 1.
