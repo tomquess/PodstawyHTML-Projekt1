@@ -7,7 +7,36 @@
     <title>Document</title>
 </head>
 <body>
-    <p1>Imię i nazwisko</p1>
-    <form></form>
+    <form>
+        <label for="imienazwisko">Imię nazwisko</label><br>
+        <input type="text" id="imienazwisko" name="imienazwisko"><br><br>
+        <label for="email">Adres email</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <p1>Wydział:</p1><br>
+        <input type="radio" name="wydzial" id="wydzialekonomiczny" value="wydzialekonomiczny">
+        <label for="wydzialzarzadzania">UG Wydział ekonomiczny</label><br>
+        <input type="radio" name="wydzial" id="wydzialzarzadzania" value="wydzialzarzadzania">
+        <label for="wydzialzarzadzania">UG Wydział zarządzania</label><br>
+        <input type="radio" name="wydzial" id="wydzialfilologiczny" value="wydzialfilologiczny">
+        <label for="wydzialzarzadzania">UG Wydział filologiczny</label><br><br>
+
+        <p1>Zainteresowania:</p1><br>
+        <input type="checkbox" name="Sport" id="zainteresowania">
+        <label for="Sport">Sport</label><br>
+        <input type="checkbox" name="Muzyka" id="zainteresowania">
+        <label for="Muzyka">Muzyka</label><br>
+        <input type="checkbox" name="Programowanie" id="zainteresowania">
+        <label for="Programowanie">Programowanie</label><br><br>
+
+        <p1>System operacyjny:</p1><br>
+        <select name="systemoperacyjny">
+            <option value="Windows">Windows</option>
+            <option value="MacOS">MacOS</option>
+            <option value="Linux">Linux</option>  
+        </select><br><br><br>
+
+        <input type="button" value="Wyślij">
+    </form>
 </body>
 </html>
